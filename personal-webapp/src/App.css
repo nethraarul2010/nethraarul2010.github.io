@@ -4,10 +4,17 @@
   box-sizing: border-box;
 }
 
-.App {
-  background: url(./assets/background.jpg);
-   background-size: cover; 
-  background-position: center;
-  height: 100vh;
+html, body {
+  height: 100%; /* Ensure full height for the fixed background */
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
+.App {
+  background: url(./assets/background.jpg);
+  background-size: cover; 
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}

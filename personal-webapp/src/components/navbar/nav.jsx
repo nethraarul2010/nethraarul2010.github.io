@@ -2,6 +2,7 @@ import "./nav.css";
 import React from "react";
 import knimage from "../../assets/KN.png";
 
+
 export default function Nav() {
     return(
     <div>

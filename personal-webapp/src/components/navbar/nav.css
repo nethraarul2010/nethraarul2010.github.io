@@ -2,7 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 30px;
     padding: 1rem;
+
+}
+.navbar-left{
+    display: flex;
 }
 .logo {
     display: block;
@@ -15,9 +20,20 @@
     width: 50px;
     height: auto;
 }
-
+.navbar-right{
+    display: flex;
+    justify-content: flex-start;  /* Aligns everything to the left */
+    align-items: center;
+    padding: 1rem;
+    gap: 10px; 
+    
+}
 .nav-item{
    margin-right: 4px;
    display: block;
    align-items: flex-start;
+   text-decoration: none;
+   color: #5A3E36;
+   font-weight: bold;
+   font-size: medium;
 }
