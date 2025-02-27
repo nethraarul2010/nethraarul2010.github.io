@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0139e69d.css",
+    "main.js": "/static/js/main.d80f9d27.js",
+    "static/js/488.d933b2e6.chunk.js": "/static/js/488.d933b2e6.chunk.js",
+    "static/media/portfolio.png": "/static/media/portfolio.e68b9850a732eccd4ace.png",
+    "static/media/techit.png": "/static/media/techit.b23431ca2ff7777227a6.png",
+    "static/media/chore.png": "/static/media/chore.c51fa0126384ccd4fb6b.png",
+    "static/media/imea.png": "/static/media/imea.1752216d213175ae88fc.png",
+    "static/media/landing.png": "/static/media/landing.3a358106a28ad6f94aea.png",
+    "static/media/Resume.pdf": "/static/media/Resume.b2d96c8f978a17023b64.pdf",
+    "static/media/bosch.png": "/static/media/bosch.feb3e401fbc227f88e10.png",
+    "static/media/neu.png": "/static/media/neu.da14c9ac887cdd64e52c.png",
+    "static/media/staples.png": "/static/media/staples.287cc1b378ce82ffdffb.png",
+    "static/media/background.jpg": "/static/media/background.89596a52c25b304718f8.jpg",
+    "index.html": "/index.html",
+    "main.0139e69d.css.map": "/static/css/main.0139e69d.css.map",
+    "main.d80f9d27.js.map": "/static/js/main.d80f9d27.js.map",
+    "488.d933b2e6.chunk.js.map": "/static/js/488.d933b2e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0139e69d.css",
+    "static/js/main.d80f9d27.js"
+  ]
+}
