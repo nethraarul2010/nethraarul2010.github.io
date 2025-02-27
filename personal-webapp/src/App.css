@@ -5,11 +5,12 @@
 }
 
 html, body {
-  height: 100%; /* Ensure full height for the fixed background */
-  overflow-x: scroll; /* Prevent horizontal scroll */
+  height: 100%; 
+  overflow-x: scroll; 
 }
 
 .App {
+  min-height: 100vh;
   background: url(./assets/background.jpg);
   background-size: cover; 
   background-repeat: no-repeat;

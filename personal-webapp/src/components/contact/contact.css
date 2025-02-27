@@ -1,0 +1,62 @@
+.contact-form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    width: 100%;
+}
+
+.contact-heading{
+    font-size: 30px;
+    color: #5A3E36;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+label{
+    font-size: 20px;
+    color: #5A3E36;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.contact-description{
+    font-size: 20px;
+    color: #5A3E36;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    padding: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.submit-button{
+    background-color:#5A3E36 !important;
+    border-color: #5A3E36 !important;
+    width: 25% !important;
+    margin-left: 35%;
+    color:bisque !important;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px; 
+    font-size: 18px; 
+    background-color: #e4c1a7 !important;
+    border: 2px solid #ccc; 
+    border-radius: 8px;
+    transition: border 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #5A3E36; 
+}

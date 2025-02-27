@@ -1,0 +1,82 @@
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    padding: 20px;
+    gap:40px;
+}
+
+.landing-content {
+    max-width: 600px;
+    text-align: left;
+}
+
+.landing-heading {
+    font-size: 2.5rem;
+    color: #5A3E36;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.landing-subheading {
+    font-size: 3rem;
+    color: #8C6A5D;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.landing-body{
+    font-size: 25px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+.landing-description {
+    font-size: 1.2rem;
+    color: #3E3E3E;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+
+.cta-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #5A3E36;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #8C6A5D;
+}
+
+.landing-image img {
+    max-width: 370px;
+    height: auto;
+    mix-blend-mode: multiply; 
+    padding: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .landing {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .landing-content {
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .landing-image img {
+        max-width: 300px;
+        margin-top: 20px;
+    }
+}

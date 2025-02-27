@@ -1,0 +1,46 @@
+
+
+.resume-section {
+    text-align: center;
+    padding: 30px 20px;
+    align-items: center;
+}
+
+.resume-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #5A3E36;
+    margin-bottom: 20px;
+}
+
+.resume-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #5A3E36;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 9px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.resume-button:hover {
+    background-color: #8C6A5D;
+}
+
+/* Resume Preview (Embedded PDF) */
+.resume-preview {
+    width: 90%;
+    height: 700px;
+    border: none;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .resume-preview {
+        width: 100%;
+        height: 400px;
+    }
+}
