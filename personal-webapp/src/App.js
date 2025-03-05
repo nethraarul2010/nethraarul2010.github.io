@@ -10,7 +10,6 @@ import Contact from './components/contact/contact';
 function App() {
   return (
     <div className="App">
-      <Router>
       <Nav/>
       <Routes>
         <Route path="/" exact element={<Home/>} />
@@ -19,9 +18,7 @@ function App() {
         <Route path="/resume" element={<Resume/>} />
         <Route path="/contact" element={<Contact/>} />
       </Routes>
-    </Router>
     </div>
   );
 }
-
 export default App;

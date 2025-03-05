@@ -29,7 +29,6 @@
     background-color: #8C6A5D;
 }
 
-/* Resume Preview (Embedded PDF) */
 .resume-preview {
     width: 90%;
     height: 700px;
@@ -37,7 +36,7 @@
     margin-top: 20px;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .resume-preview {
         width: 100%;

@@ -1,14 +1,21 @@
-.navbar{
+/* Navbar Styling */
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 30px;
-    padding: 1rem;
+    padding: 1rem 2rem;
+    background: #F8EDE3; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
 
-}
-.navbar-left{
+.navbar-left {
     display: flex;
+    align-items: center;
 }
+
 .logo {
     display: block;
     width: 50px;
@@ -20,19 +27,76 @@
     width: 50px;
     height: auto;
 }
-.navbar-right{
+
+/* Desktop Navigation Links */
+.navbar-right {
     display: flex;
-    justify-content: flex-start; 
+    justify-content: flex-end;
     align-items: center;
-    padding: 1rem;
-    gap: 10px; 
-    
+    gap: 15px;
 }
-.nav-item{
-   margin-right: 4px;
-   display: block;
-   align-items: flex-start;
-   text-decoration: none;
-   color: #5A3E36;
-   font-weight: bold;;
+
+/* Individual Nav Items */
+.nav-item {
+    text-decoration: none;
+    color: #5A3E36;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+    color: #8C6A5D;
+}
+
+
+.menu-icon {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #5A3E36;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+
+    .menu-icon {
+        display: block;
+    }
+
+
+    .navbar-right {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #F8EDE3;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-right.show {
+        display: flex;
+    }
+
+    .nav-item {
+        padding: 15px 0;
+        width: 100%;
+        display: block;
+    }
+}
+
+@media (min-width: 769px) {
+    .menu-icon {
+        display: none;
+    }
 }
