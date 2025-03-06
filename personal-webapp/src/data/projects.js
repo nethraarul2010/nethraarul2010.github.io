@@ -26,7 +26,7 @@ export const projects = [
     {
         image: portfolio,
         title: "Portfolio Website",
-        description: "Designed and developed a personal portfolio website to showcase my skills, experience, and projects in a structured and interactive way. ",
+        description: "Designed and developed a personal portfolio website to showcase my skills, experience, and projects in a structured and interactive way.",
         techstack: "React.js, JavaScript, HTML5, CSS3, Bootstrap",
     }
   ];
