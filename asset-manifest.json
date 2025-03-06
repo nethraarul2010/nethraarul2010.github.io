@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f7c3278.css",
+    "main.css": "/static/css/main.017142bc.css",
     "main.js": "/static/js/main.c60e0f78.js",
     "static/js/488.d933b2e6.chunk.js": "/static/js/488.d933b2e6.chunk.js",
     "static/media/portfolio.png": "/static/media/portfolio.e68b9850a732eccd4ace.png",
@@ -14,12 +14,12 @@
     "static/media/staples.png": "/static/media/staples.287cc1b378ce82ffdffb.png",
     "static/media/background.jpg": "/static/media/background.89596a52c25b304718f8.jpg",
     "index.html": "/index.html",
-    "main.1f7c3278.css.map": "/static/css/main.1f7c3278.css.map",
+    "main.017142bc.css.map": "/static/css/main.017142bc.css.map",
     "main.c60e0f78.js.map": "/static/js/main.c60e0f78.js.map",
     "488.d933b2e6.chunk.js.map": "/static/js/488.d933b2e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f7c3278.css",
+    "static/css/main.017142bc.css",
     "static/js/main.c60e0f78.js"
   ]
 }
