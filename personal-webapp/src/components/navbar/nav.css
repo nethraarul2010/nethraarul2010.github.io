@@ -1,15 +1,19 @@
-/* Navbar Styling */
 .navbar {
+    position: fixed !important;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: rgba(237, 221, 205, 0.7); 
+    backdrop-filter: blur(10px); 
+    z-index: 1000; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
-    background: #F8EDE3; 
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+    padding: 1rem 2rem !important;
+
 }
+
 
 .navbar-left {
     display: flex;
@@ -28,7 +32,7 @@
     height: auto;
 }
 
-/* Desktop Navigation Links */
+
 .navbar-right {
     display: flex;
     justify-content: flex-end;
@@ -36,7 +40,7 @@
     gap: 15px;
 }
 
-/* Individual Nav Items */
+
 .nav-item {
     text-decoration: none;
     color: #5A3E36;
@@ -48,8 +52,12 @@
 
 .nav-item:hover {
     color: #8C6A5D;
+    border-bottom: #5A3E36;
 }
 
+.nav-item.active {
+    border-bottom: 2px solid #5A3E36 !important; 
+}
 
 .menu-icon {
     display: none;
