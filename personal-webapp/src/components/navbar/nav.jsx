@@ -16,7 +16,7 @@ export default function Nav() {
                     }
                 });
             },
-            { threshold: 0.6 } // ✅ Adjust threshold for better accuracy
+            { threshold: 0.6 }
         );
 
         sections.forEach((section) => observer.observe(section));
