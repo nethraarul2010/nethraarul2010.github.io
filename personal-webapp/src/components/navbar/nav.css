@@ -50,6 +50,7 @@
     transition: color 0.3s ease-in-out;
 }
 
+
 .nav-item:hover {
     color: #8C6A5D;
     border-bottom: #5A3E36;
