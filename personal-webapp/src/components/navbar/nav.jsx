@@ -38,7 +38,7 @@ export default function Nav() {
                 <Link to="#home" className={`nav-item ${activeSection === "#home" ? "active" : ""}`}>Home</Link>
                 <Link to="#about" className={`nav-item ${activeSection === "#about" ? "active" : ""}`}>About</Link>
                 <Link to="#experience" className={`nav-item ${activeSection === "#experience" ? "active" : ""}`}>Experience</Link>
-                <Link to="#resume" className={`nav-item ${activeSection === "#resume" ? "active" : ""}`}>Resume</Link>
+                {/* <Link to="#resume" className={`nav-item ${activeSection === "#resume" ? "active" : ""}`}>Resume</Link> */}
                 <Link to="#contact" className={`nav-item ${activeSection === "#contact" ? "active" : ""}`}>Contact</Link>
             </div>
         </nav>

@@ -30,7 +30,7 @@ export default function App() {
                         <section id="home"><Home /></section>
                         <section id="about"><About /></section>
                         <section id="experience"><Projects /></section>
-                        <section id="resume"><Resume /></section>
+                        {/* <section id="resume"><Resume /></section> */}
                         <section id="contact"><Contact /></section>
                     </div>
                 </>

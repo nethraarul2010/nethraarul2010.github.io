@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./contact.css";
 import { send } from "emailjs-com";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa"; 
 
 export default function Contact() {
   const [toSend, setToSend] = useState({
@@ -37,6 +38,18 @@ export default function Contact() {
       <p className="contact-description">
         Have a question, opportunity, or just want to say hello? Feel free to reach out! I'd love to connect.
       </p>
+      <div className="social-icons">
+            <a href="https://www.linkedin.com/in/kamalanethraarul/" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin className="social-icon" />
+            </a>
+            <a href="https://github.com/nethraarul2010" target="_blank" rel="noopener noreferrer">
+              <FaGithub className="social-icon" />
+            </a>
+            <a href="mailto:arulmozhi.k@northeastern.edu">
+              <FaEnvelope className="social-icon" />
+            </a>
+          </div>
+          <a href="https://drive.google.com/file/d/1TBZGlZf58oKmVP3-8ysmDRjFs90taRQ5/view?usp=sharing" target="_blank" className="contact-description">Link to my Resume</a>
       <form onSubmit={onSubmit}>
         <div className="form-group">
           <label htmlFor="from_name">Name</label>

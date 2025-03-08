@@ -28,6 +28,12 @@ export const projects = [
         title: "Portfolio Website",
         description: "Designed and developed a personal portfolio website to showcase my skills, experience, and projects in a structured and interactive way.",
         techstack: "React.js, JavaScript, HTML5, CSS3, Bootstrap",
-    }
+    },
+    {
+      image: imea,
+      title: "Canvas Clone",
+      description: "A full-stack Canvas clone built with React.js, TypeScript, Node.js, and MongoDB, featuring real-time collaboration, course management, assignment grading, and secure authentication for an enhanced online learning experience. ",
+      techstack: "React.js, Node.js, Javascript, Typescript, HTML, CSS, MongoDB"
+  }
   ];
   

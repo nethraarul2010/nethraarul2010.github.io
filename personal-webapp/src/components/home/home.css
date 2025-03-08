@@ -74,6 +74,25 @@
     min-width: 250px;
 }
 
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-icon {
+    font-size: 2rem;
+    color: #5A3E36;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+    color: #8C6A5D;
+}
+
+
 
 @media (max-width: 1024px) {
     .landing {
@@ -134,5 +153,17 @@
 
     .landing-image img {
         max-width: 250px;
+    }
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    
+    .social-icon {
+        font-size: 2rem;
+        color: #5A3E36;
+        transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
     }
 }

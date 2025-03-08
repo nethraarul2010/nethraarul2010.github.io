@@ -29,7 +29,6 @@
     margin-bottom: 20px;
 }
 
-/* Form Styling */
 form {
     display: flex;
     flex-direction: column;
@@ -89,6 +88,9 @@ label {
     width: 100%;
 }
 
+.social-icons .social-icon {
+    margin-bottom: 25px;
+}
 
 .submit-button:hover {
     background-color: #8C6A5D !important;
