@@ -49,7 +49,6 @@ export default function Contact() {
               <FaEnvelope className="social-icon" />
             </a>
           </div>
-          <a href="https://drive.google.com/file/d/1TBZGlZf58oKmVP3-8ysmDRjFs90taRQ5/view?usp=sharing" target="_blank" className="contact-description">Link to my Resume</a>
       <form onSubmit={onSubmit}>
         <div className="form-group">
           <label htmlFor="from_name">Name</label>
