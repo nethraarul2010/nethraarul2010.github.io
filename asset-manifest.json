@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.756efb46.css",
-    "main.js": "/static/js/main.fe856c1f.js",
+    "main.css": "/static/css/main.6be77be7.css",
+    "main.js": "/static/js/main.14495c30.js",
     "static/js/488.d933b2e6.chunk.js": "/static/js/488.d933b2e6.chunk.js",
     "static/media/portfolio.png": "/static/media/portfolio.e68b9850a732eccd4ace.png",
     "static/media/techit.png": "/static/media/techit.b23431ca2ff7777227a6.png",
@@ -12,14 +12,14 @@
     "static/media/bosch.png": "/static/media/bosch.feb3e401fbc227f88e10.png",
     "static/media/neu.png": "/static/media/neu.da14c9ac887cdd64e52c.png",
     "static/media/staples.png": "/static/media/staples.287cc1b378ce82ffdffb.png",
-    "static/media/background.jpg": "/static/media/background.89596a52c25b304718f8.jpg",
+    "static/media/KN.png": "/static/media/KN.611a28ffef1060e92a00.png",
     "index.html": "/index.html",
-    "main.756efb46.css.map": "/static/css/main.756efb46.css.map",
-    "main.fe856c1f.js.map": "/static/js/main.fe856c1f.js.map",
+    "main.6be77be7.css.map": "/static/css/main.6be77be7.css.map",
+    "main.14495c30.js.map": "/static/js/main.14495c30.js.map",
     "488.d933b2e6.chunk.js.map": "/static/js/488.d933b2e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.756efb46.css",
-    "static/js/main.fe856c1f.js"
+    "static/css/main.6be77be7.css",
+    "static/js/main.14495c30.js"
   ]
 }
