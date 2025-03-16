@@ -1,0 +1,9 @@
+
+    :root {
+        --primary-color: hsl(200, 65%, 82%);
+        --secondary-color: #79B6D9;
+        --accent-color: #FFCBA4;
+        --contrast-dark: #2E4057;
+        --contrast-light: #E0E5EC;
+        --text-color: #4e5961;
+    }

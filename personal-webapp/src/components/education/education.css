@@ -1,0 +1,102 @@
+
+.education-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.lottie-animation {
+    width: 450px;
+    height: 600px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
+    transition: transform 0.3s ease-in-out;
+}
+
+.lottie-animation:hover {
+    transform: scale(1.05);
+}
+
+
+.education-items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.education-items div {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.education-items div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.experience-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--contrast-dark);
+    margin-bottom: 30px;
+}
+
+
+.education-items h4 {
+    font-size: 1.5rem;
+    color: var(--contrast-dark);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.education-items p {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin-bottom: 5px;
+}
+
+@media (max-width: 1024px) {
+    .education-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+        gap: 40px;
+    }
+
+    .lottie-animation {
+        width: 350px;
+        height: 450px;
+    }
+
+    .education-items div {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .experience-heading {
+        font-size: 2rem;
+    }
+
+    .education-items h4 {
+        font-size: 1.3rem;
+    }
+
+    .education-items p {
+        font-size: 1rem;
+    }
+
+    .lottie-animation {
+        width: 280px;
+        height: 400px;
+    }
+}

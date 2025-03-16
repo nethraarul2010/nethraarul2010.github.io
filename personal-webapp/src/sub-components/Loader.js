@@ -9,7 +9,7 @@ const Loader = () => {
             left: 0,
             width: "100vw",
             height: "100vh",
-            backgroundColor: "rgba(248, 237, 227, 0.9)", 
+            backgroundColor: "#daf1ff", 
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
@@ -18,7 +18,7 @@ const Loader = () => {
         },
 
         text: {
-            color: "rgba(104, 72, 34, 1)",
+            color: "#2E4057",
             fontSize: "2rem",
             fontWeight: "bold",
             marginBottom: "1rem",
@@ -29,7 +29,7 @@ const Loader = () => {
     return (
         <div style={styles.loaderContainer}>
             <p style={styles.text}>Hey, Hi There!</p>
-            <PropagateLoader color="rgba(104, 72, 34, 1)" />
+            <PropagateLoader color="#2E4057" />
             
         </div>
     );

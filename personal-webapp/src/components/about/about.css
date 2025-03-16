@@ -1,7 +1,7 @@
 .about-heading {
     align-items: center;
     margin: 20px;
-    color: #5A3E36;
+    color: var(--contrast-dark);
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -20,13 +20,13 @@
     text-align: center;
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
-    color: #5A3E36;
+    color: var(--text-color);
 }
 
 /* Skill Icons Styling */
 .tech-icons {
-    background: #ECDED0;
-    border-color: #5A3E36;
+    background: #e9f5fc;
+    border-color: var(--contrast-dark);
     border-style: solid;
     border-width: 1px;
     padding: 20px;
@@ -87,7 +87,7 @@
 /* Icon Styling */
 .tech-icons svg {
     font-size: 3rem;
-    color: #5A3E36;
+    color: var(--contrast-dark);
 }
 
 /* Responsive Adjustments */

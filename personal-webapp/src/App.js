@@ -8,6 +8,8 @@ import Contact from "./components/contact/contact";
 import ParticlesComponent from "./sub-components/ParticleComponent";
 import Loader from "./sub-components/Loader";
 import "./App.css";
+import Education from "./components/education/education";
+import "./theme.css";
 
 export default function App() {
     const [loading, setLoading] = useState(true);  
@@ -30,6 +32,7 @@ export default function App() {
                         <section id="home"><Home /></section>
                         <section id="about"><About /></section>
                         <section id="experience"><Projects /></section>
+                        <section id="education"><Education /></section>
                         {/* <section id="resume"><Resume /></section> */}
                         <section id="contact"><Contact /></section>
                     </div>

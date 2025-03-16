@@ -21,14 +21,23 @@
 
 .landing-heading {
     font-size: 2.5rem;
-    color: #5A3E36;
+    color: var(--contrast-dark);
     font-weight: bold;
     padding: 5px;
 }
 
+.landing-name {
+    font-size: 2.5rem;
+    background: linear-gradient(to bottom, #587aa5 60%, #45789d 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+
 .landing-subheading {
     font-size: 3rem;
-    color: #8C6A5D;
+    color: var(--text-color);
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -64,6 +73,16 @@
     background-color: #8C6A5D;
 }
 
+.lottie-animation {
+    width: 500px;
+    height: 700px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .lottie-animation:hover {
+    transform: scale(1.05);
+  }
 
 .landing-image img {
     max-width: 370px;
@@ -83,18 +102,26 @@
 
 .social-icon {
     font-size: 2rem;
-    color: #5A3E36;
+    color: var(--contrast-dark);
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .social-icon:hover {
     transform: scale(1.1);
-    color: #8C6A5D;
+    color: var(--text-color);
 }
 
 
 
 @media (max-width: 1024px) {
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
     .landing {
         flex-direction: column;
         text-align: center;
@@ -127,6 +154,13 @@
         max-width: 280px;
         margin-top: 20px;
     }
+
+    .lottie-animation {
+        width: 450px;
+        height: auto;
+        max-width: 80%;
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -154,6 +188,7 @@
     .landing-image img {
         max-width: 250px;
     }
+
     .social-icons {
         display: flex;
         justify-content: center;
@@ -165,5 +200,11 @@
         font-size: 2rem;
         color: #5A3E36;
         transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+
+    .lottie-animation {
+        width: 300px;
+        height: auto;
+        max-width: 90%;
     }
 }

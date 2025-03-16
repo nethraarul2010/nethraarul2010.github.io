@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import { motion } from "framer-motion";  // ✅ Import Framer Motion
+import { motion } from "framer-motion"; 
 import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1, DiReact, DiNodejs, DiMongodb, DiPython, DiGit, DiJava, DiAngularSimple,

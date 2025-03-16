@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./contact.css";
 import { send } from "emailjs-com";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa"; 
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 export default function Contact() {
   const [toSend, setToSend] = useState({
@@ -35,6 +36,11 @@ export default function Contact() {
   return (
     <div className="contact-form">
       <h1 className="contact-heading">Contact Me</h1>
+      {/* <DotLottieReact
+      src="https://lottie.host/16ae0a92-690c-4e70-93e6-c1287462d8fc/q2CmmqeRDk.lottie"
+      loop
+      autoplay
+    /> */}
       <p className="contact-description">
         Have a question, opportunity, or just want to say hello? Feel free to reach out! I'd love to connect.
       </p>

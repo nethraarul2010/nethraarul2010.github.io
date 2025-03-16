@@ -3,6 +3,8 @@ import React from "react";
 import landingImage from "../../assets/landing.png";
 import Type from "./type";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa"; 
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+
 
 export default function Home() {
   return (
@@ -11,7 +13,7 @@ export default function Home() {
         <div className="landing-subheading">
           <h1 className="landing-heading">
             Hello, I'm <br />
-            Kamalanethra Arulmozhi.
+            <h1 className="landing-name">Kamalanethra Arulmozhi.</h1>
           </h1>
           <div className="landing-content">
             <Type />
@@ -36,10 +38,16 @@ export default function Home() {
 
         </div>
         <div className="landing-image">
-          <img
+        <DotLottieReact
+         src="https://lottie.host/c484382f-28c0-469a-a1fc-390527c9039f/nhiEFVe9PV.lottie"
+      loop
+      autoplay
+      className="lottie-animation"
+    />
+          {/* <img
             src={landingImage}
             alt="Kamalanethra Arulmozhi - Software Engineer"
-          />
+          /> */}
         </div>
       </section>
     </div>
